@@ -1,6 +1,8 @@
 function BellBoy (name, age, hasWorkPermit, languages) {
-    this.name = "Jane";
-    this.age = 18;
-    this.hasWorkPermit = true;
-    this.languages = ["English","Spanish"];
+    this.name = name;
+    this.age = age;
+    this.hasWorkPermit = hasWorkPermit;
+    this.languages = languages;
 }
+
+var bellBoy1 = new BellBoy("Jane", 18, true, ["English", "Spanish"])
