@@ -1,0 +1,12 @@
+function Audio(fileLocation) {
+    this.fileLocation = fileLocation;
+    this.play = function() {
+        //Tap into the audio hardware
+        //Check the file at the location exists
+        //Check if its a sound file
+        //Play the file
+    }
+}
+
+var tom_1 = new Audio ("sounds/tom-1.mp3");
+tom_1.play();
