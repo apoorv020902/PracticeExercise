@@ -6,12 +6,14 @@ const app2 = express();
 //POST
 //PUT
 //DELETE
+app2.use(express.json());
 
 app2.get("/hello", (req, res, next) =>{
     return res.send("hello!!!");
 })
 
 app2.post("/hello", (req, res, next) =>{
+    console.log(req.body.name);
     return res.send("hello!!!");
 })
 
